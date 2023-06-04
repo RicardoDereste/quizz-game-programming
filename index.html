@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Programming</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1 id="main-title">Quizz of Programming</h1>
+    <div id="score-container" class="hide">
+        <h2>Congratulations</h2>
+        <p id="display-score"><span>90</span>%</p>
+        <p>You got <span id="correct-answer">0</span> out of <span id="questions-qty">10</span> questions correct!</p>
+        <button id="restart">Restart quizz</button>
+    </div>
+    <div id="quizz-container">
+        <p id="question">
+            <span id="question-number">1</span> - <span id="question-text">What is the unit of measurement for meters?</span>
+        </p>
+        <div id="answers-box">
+        </div>
+    </div>
+
+    <!-- Template answer -->
+    <button class="answer-template hide"><span class="btn-letter"></span> <span class="question-answer"></span></button>
+</body>
+</html>
